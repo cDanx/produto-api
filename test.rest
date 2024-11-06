@@ -1,0 +1,34 @@
+### Criar tabela
+GET http://localhost:13000/setup
+
+### Listar todos os produtos
+GET http://localhost:13000
+
+### Criar novo produto
+POST http://localhost:13000
+Content-Type: application/json
+
+{
+    "name": "Coca 6", 
+    "desc": "Coca bom demais!", 
+    "preco": 0.00, 
+    "estoque": 123
+}
+
+### Buscar produto por ID
+GET http://localhost:13000/1
+
+### Atualizar produto
+PUT http://localhost:13000/1
+Content-Type: application/json
+
+{
+    "name": "Coca Cola nova", 
+    "desc": "Refrigerante atualizado!", 
+    "preco": 5.99, 
+    "estoque": 100
+}
+
+### Deletar produto
+DELETE http://localhost:13000/1
+

@@ -1,0 +1,19 @@
+{
+  "name": "dev-movel-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "setup-db": "node setupDb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "cors": "^2.8.5"
+  }
+}
